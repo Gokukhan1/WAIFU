@@ -56,13 +56,15 @@ async def start(update: Update, context: CallbackContext) -> None:
         caption = f"""
         ***❖ ʜᴇʏ {update.effective_user.first_name}, ᴡᴇʟᴄᴏᴍᴇ ʙᴀʙʏ ♥︎\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━***
               
-***● ɪ ᴀᴍ 『ɴʏᴋᴀᴀ』x³『ᴀɴɪᴍᴇ』♡゙ ᴀɴᴅ ɪ ʜᴀᴠᴇ sᴘᴇᴄɪᴀʟ ғᴇᴀᴛᴜʀᴇs.\n\n● ᴀɴɪᴍᴇ ᴠᴇʀsɪᴏɴ ➥ M33.6/V16 \n● ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ ➥ 3.11.9 \n\n❖ ᴛʜɪs ɪs ᴍᴏsᴛ ᴘᴏᴡᴇʀғᴜʟʟ ᴀɴɪᴍᴇ ᴄʜᴀʀᴀᴄᴛᴇʀ ᴄᴏʟʟᴇᴄᴛ ʜᴀʀᴇᴍ ʙᴏᴛ.***
+***● ɪ ᴀᴍ 『GOKU』x³『ᴀɴɪᴍᴇ』♡゙ ᴀɴᴅ ɪ ʜᴀᴠᴇ sᴘᴇᴄɪᴀʟ ғᴇᴀᴛᴜʀᴇs.\n\n● ᴀɴɪᴍᴇ ᴠᴇʀsɪᴏɴ ➥ M33.6/V16 \n● ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ ➥ 3.11.9 \n\n❖ ᴛʜɪs ɪs ᴍᴏsᴛ ᴘᴏᴡᴇʀғᴜʟʟ ᴀɴɪᴍᴇ ᴄʜᴀʀᴀᴄᴛᴇʀ ᴄᴏʟʟᴇᴄᴛ ʜᴀʀᴇᴍ ʙᴏᴛ.***
                """
         keyboard = [
-            [InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f'http://t.me/avishaxbot?startgroup=new')],
-            [InlineKeyboardButton("ᴏᴡɴᴇʀ", url=f'https://t.me/HLO_PAPA'),
-             InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=f'https://t.me/the_friendz')],
-            [InlineKeyboardButton("ʜᴇʟᴘ ᴄᴏᴍᴍᴀɴᴅs", callback_data='help')],
+            [InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f'http://t.me/GOKU_ANIME_HASBANDO_REBOT?startgroup=new')],
+            [InlineKeyboardButton("Xeno_Kakarot", url=f'https://t.me/Xeno_Kakarot'),
+             InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=f'https://t.me/lolpagalokigc')],
+            [InlineKeyboardButton("ʜᴇʟᴘ ᴄᴏᴍᴍᴀɴᴅs", callback_data='help'),
+             InlineKeyboardButton("creater", url=f'https://t.me/The_saiyans_prince')],
+             [InlineKeyboardButton("repo",url=f'https://youtu.be/j_nJPCgxYS4?si=OT2IRBoExdbPqkJF')],
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
         photo_url = random.choice(AVISHA)
@@ -109,13 +111,15 @@ async def button(update: Update, context: CallbackContext) -> None:
         caption = f"""
         ***❖ ʜᴇʏ {update.effective_user.first_name}, ᴡᴇʟᴄᴏᴍᴇ ʙᴀʙʏ ♥︎\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━***
               
-***● ɪ ᴀᴍ 『ɴʏᴋᴀᴀ』x³『ᴀɴɪᴍᴇ』♡゙  ᴀɴᴅ ɪ ʜᴀᴠᴇ sᴘᴇᴄɪᴀʟ ғᴇᴀᴛᴜʀᴇs.\n\n● ᴀɴɪᴍᴇ ᴠᴇʀsɪᴏɴ ➥ M33.6/V16\n● ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ ➥ 3.11.9\n\n❖ ᴛʜɪs ɪs ᴍᴏsᴛ ᴘᴏᴡᴇʀғᴜʟʟ ᴀɴɪᴍᴇ ᴄʜᴀʀᴀᴄᴛᴇʀ ᴄᴏʟʟᴇᴄᴛ ʜᴀʀᴇᴍ ʙᴏᴛ.***
+***● ɪ ᴀᴍ 『GOKU』x³『ᴀɴɪᴍᴇ』♡゙  ᴀɴᴅ ɪ ʜᴀᴠᴇ sᴘᴇᴄɪᴀʟ ғᴇᴀᴛᴜʀᴇs.\n\n● ᴀɴɪᴍᴇ ᴠᴇʀsɪᴏɴ ➥ M33.6/V16\n● ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ ➥ 3.11.9\n\n❖ ᴛʜɪs ɪs ᴍᴏsᴛ ᴘᴏᴡᴇʀғᴜʟʟ ᴀɴɪᴍᴇ ᴄʜᴀʀᴀᴄᴛᴇʀ ᴄᴏʟʟᴇᴄᴛ ʜᴀʀᴇᴍ ʙᴏᴛ.***
                """
         keyboard = [
             [InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f'http://t.me/{BOT_USERNAME}?startgroup=new')],
-            [InlineKeyboardButton("ᴏᴡɴᴇʀ", url=f'https://t.me/hlo_papa'),
+            [InlineKeyboardButton("Xeno_Kakarot", url=f'https://t.me/Xeno_Kakarot'),
              InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=f'https://t.me/{SUPPORT_CHAT}')],
-            [InlineKeyboardButton("ʜᴇʟᴘ ᴄᴏᴍᴍᴀɴᴅs", callback_data='help')],
+            [InlineKeyboardButton("ʜᴇʟᴘ ᴄᴏᴍᴍᴀɴᴅs", callback_data='help'),
+             InlineKeyboardButton("creater", url=f'https://t.me/The_saiyans_prince')],
+            [InlineKeyboardButton("repo", url=f'https://youtu.be/j_nJPCgxYS4?si=OT2IRBoExdbPqkJF')],
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
         
