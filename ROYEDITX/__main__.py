@@ -116,7 +116,7 @@ async def send_image(update: Update, context: CallbackContext) -> None:
     await context.bot.send_photo(
         chat_id=chat_id,
         photo=character['img_url'],
-        caption="""⬤ ᴀ ɴᴇᴡ ᴄʜᴀʀᴀᴄᴛᴇʀ ʜᴀs ᴊᴜsᴛ ᴀᴘᴘᴇᴀʀᴇᴅ ᴜsᴇ ➥ /hunt [ɴᴀᴍᴇ] ᴀɴᴅ ᴀᴅᴅ ᴛʜɪs ᴄʜᴀʀᴀᴄᴛᴇʀ ɪɴ ʏᴏᴜʀ ᴄᴏʟʟᴇᴄᴛɪᴏɴ.\n\n❖ ᴘᴏᴡᴇʀᴅ ʙʏ ➥ @Xeno_Kakarot 🥀""",
+        caption="""⬤ ᴀ ɴᴇᴡ ᴄʜᴀʀᴀᴄᴛᴇʀ ʜᴀs ᴊᴜsᴛ ᴀᴘᴘᴇᴀʀᴇᴅ ᴜsᴇ ➥ /collect [ɴᴀᴍᴇ] ᴀɴᴅ ᴀᴅᴅ ᴛʜɪs ᴄʜᴀʀᴀᴄᴛᴇʀ ɪɴ ʏᴏᴜʀ ᴄᴏʟʟᴇᴄᴛɪᴏɴ.\n\n❖ ᴘᴏᴡᴇʀᴅ ʙʏ ➥ @Xeno_Kakarot 🥀""",
         parse_mode='Markdown')
     
 async def guess(update: Update, context: CallbackContext) -> None:
@@ -207,7 +207,9 @@ async def guess(update: Update, context: CallbackContext) -> None:
 
 
         await update.message.reply_text(f'❖ <b><a href="tg://user?id={user_id}">{update.effective_user.first_name}</a></b> ʏᴏᴜ ɢᴏᴛ ɴᴇᴡ ᴄʜᴀʀᴀᴄᴛᴇʀ.\n\n● ᴄʜᴀʀᴀᴄᴛᴇʀ ɴᴀᴍᴇ ➥ <b>{last_characters[chat_id]["name"]}</b> \n● ᴀɴɪᴍᴇ ɴᴀᴍᴇ ➥ <b>{last_characters[chat_id]["anime"]}</b> \n● ʀᴀɪʀᴛʏ ➥ <b>{last_characters[chat_id]["rarity"]}</b>\n\n❖ ᴛʜɪs ᴄʜᴀʀᴀᴄᴛᴇʀ ʜᴀs ʙᴇᴇɴ ᴀᴅᴅᴇᴅ ᴛᴏ ʏᴏᴜʀ ʜᴀʀᴇᴍ ɴᴏᴡ ,ᴛᴏ ᴅᴏ ➥ /collection ᴛᴏ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ɴᴇᴡ ᴄʜᴀʀᴀᴄᴛᴇʀ.', parse_mode='HTML')
-
+        await message.react("❤")
+        await message.reply_sticker("CAACAgUAAx0CeLQ1mwACG7ZnZO5VK5rlFW8NHyqzMhp6ERehtAACYgYAAlYG8Vei-TsX3p09iDYE")
+        
     else:
         await update.message.reply_text('❖ ɪɴᴄᴏʀʀᴇᴄᴛ ɴᴀᴍᴇ, ʙᴀʙʏ...❌️')
    
