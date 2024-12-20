@@ -80,7 +80,7 @@ async def button(update: Update, context: CallbackContext) -> None:
 
     if query.data == 'help':
         help_text = """
-    ***❖ ʜᴇʟᴘ ᴄᴏᴍᴍᴀɴᴅs sᴇᴄᴛɪᴏɴ ❖***
+    ***❖ ʜᴇʟᴘ ᴄᴏᴍᴍᴀɴᴅs sᴇᴄᴛɪᴏɴ 2 ❖***
     
 ***⬤ /guess ➥ ᴛᴏ ɢᴜᴇss ᴄʜᴀʀᴀᴄᴛᴇʀ (ᴏɴʟʏ ᴡᴏʀᴋs ɪɴ ɢʀᴏᴜᴘ).***
 ***⬤ /fav ➥ ᴀᴅᴅ ʏᴏᴜʀ ғᴀᴠʀᴀᴛᴇ.***
@@ -109,8 +109,8 @@ async def button(update: Update, context: CallbackContext) -> None:
             [InlineKeyboardButton("Xeno_Kakarot", url=f'https://t.me/Xeno_Kakarot'),
              InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=f'https://t.me/{SUPPORT_CHAT}')],
             [InlineKeyboardButton("ʜᴇʟᴘ ᴄᴏᴍᴍᴀɴᴅs", callback_data='help'),
-             InlineKeyboardButton("creater", url=f'https://t.me/The_saiyans_prince')],
-            [InlineKeyboardButton("repo", url=f'https://youtu.be/j_nJPCgxYS4?si=OT2IRBoExdbPqkJF')],
+             InlineKeyboardButton("creater", url=f'https://t.me/xeno_kakarot')],
+            [InlineKeyboardButton("repo", url=f'https://t.me/PiratesBotRepo')],
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
         
