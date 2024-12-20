@@ -205,12 +205,12 @@ async def guess(update: Update, context: CallbackContext) -> None:
                 'count': 1,
             })
 
-        await message.react("❤")
-    if len(message.text.split()) > 1:
-        name = message.text.split(None, 1)[1]
+        await update.message.react("❤")
+    if len(update.message.text.split()) > 1:
+        name = update.message.text.split(None, 1)[1]
         if name[0:4] == "help":
             keyboard = help_pannel(_)
-            await message.reply_sticker("CAACAgUAAx0CeLQ1mwACG7ZnZO5VK5rlFW8NHyqzMhp6ERehtAACYgYAAlYG8Vei-TsX3p09iDYE")
+            await update.message.reply_sticker("CAACAgUAAx0CeLQ1mwACG7ZnZO5VK5rlFW8NHyqzMhp6ERehtAACYgYAAlYG8Vei-TsX3p09iDYE")
             
       return await update.message.reply_text(f'❖ <b><a href="tg://user?id={user_id}">{update.effective_user.first_name}</a></b> ʏᴏᴜ ɢᴏᴛ ɴᴇᴡ ᴄʜᴀʀᴀᴄᴛᴇʀ.\n\n● ᴄʜᴀʀᴀᴄᴛᴇʀ ɴᴀᴍᴇ ➥ <b>{last_characters[chat_id]["name"]}</b> \n● ᴀɴɪᴍᴇ ɴᴀᴍᴇ ➥ <b>{last_characters[chat_id]["anime"]}</b> \n● ʀᴀɪʀᴛʏ ➥ <b>{last_characters[chat_id]["rarity"]}</b>\n\n❖ ᴛʜɪs ᴄʜᴀʀᴀᴄᴛᴇʀ ʜᴀs ʙᴇᴇɴ ᴀᴅᴅᴇᴅ ᴛᴏ ʏᴏᴜʀ ʜᴀʀᴇᴍ ɴᴏᴡ ,ᴛᴏ ᴅᴏ ➥ /collection ᴛᴏ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ɴᴇᴡ ᴄʜᴀʀᴀᴄᴛᴇʀ.', parse_mode='HTML')
         
