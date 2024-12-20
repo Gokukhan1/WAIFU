@@ -77,7 +77,7 @@ def upload_to_catbox(file_path):
             raise Exception(f"Error uploading to Catbox: {response.text}")
 
 # Command to upload character information
-@ROY.on_message(filters.command(["upload"]) & filters.user([7526369190,7078181502]))
+@ROY.on_message(filters.command(["upload"]) & filters.user([7526369190,7078181502,1843986084]))
 async def ul(client, message):
     reply = message.reply_to_message
     if reply and (reply.photo or reply.document):
