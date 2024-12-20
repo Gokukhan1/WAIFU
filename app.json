@@ -41,12 +41,12 @@
       "BOT_USERNAME": {
          "description": "Enter your bot username.",
          "required": true,
-         "value": "Nykaa_Anime_Bot" 
+         "value": "@for_tying_bot" 
       },
       "SUPPORT_CHAT": {
          "description": "your bots support chat name without @ or chat id.",
          "required": true,
-         "value": "THE_FRIENDZ" 
+         "value": "PiratesMainchat" 
       },
       
       "OWNER_ID": {
@@ -57,17 +57,17 @@
      "MONGO_URL": {
          "description": "Add a Mongodb url to store data",
          "required": true,
-         "value": "mongodb+srv://hnyx:wywyw2@cluster0.9dxlslv.mongodb.net/?retryWrites=true&w=majority"
+         "value": "mongodb+srv://bikash:bikash@bikash.3jkvhp7.mongodb.net/?retryWrites=true&w=majority"
       },
       "IMG_URL": {
          "description": "image Urls.. For start.. Harem.. and top.. etc commands",
          "required": true,
-         "value": "https://graph.org/file/826485f2d7db6f09db8ed.jpg"
+         "value": "https://files.catbox.moe/t0t93h.jpg"
       },
       "UPDATE_CHAT": {
          "description": "Update Channel Username Without @",
          "required": true,
-         "value": "Nykaa_Update" 
+         "value": "PiratesBotRepo" 
      },
       
       "API_ID": {
@@ -78,7 +78,7 @@
       "CHANNEL_ID": {
          "description": "Your Channel Id.. Where bot will Send.. all Ur Uploaded characters with details",
          "required": true,
-         "value": "-1001852000392" 
+         "value": "-1002051009747" 
       },
       "API_HASH": {
          "description": "Your Api HASH... Don't know what is this.. then searchon Google",
