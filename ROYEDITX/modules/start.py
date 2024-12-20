@@ -11,9 +11,9 @@ import random
 
 #####
 AVISHA = [
-"https://telegra.ph/file/262a5dd6406c4ee26bc63.jpg",
-"https://telegra.ph/file/3515a6d10677b2dda6e3e.jpg",
-"https://telegra.ph/file/039af07c725ba814a6d48.jpg",
+"https://files.catbox.moe/lbl62s.jpg",
+"https://files.catbox.moe/t0t93h.jpg",
+"https://files.catbox.moe/ka4lzo.jpg",
 ]
 
 ####
